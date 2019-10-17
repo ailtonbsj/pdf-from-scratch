@@ -11,6 +11,26 @@ This repository has some pdf files created from zero using the VIM text editor. 
 
 - [PDF Validation Toool](https://pdf-online.com/osa/validate.aspx)
 
+### Uncompress zlib data
+
+Using shell script:
+
+```sh
+sudo apt install qpdf
+zlib-flate -uncompress < FILE
+```
+
+Using python:
+```python
+import zlib
+
+f = open("FILE","r")
+print(
+   zlib.decompress(f.read())
+)
+```
+
+
 ## Documents
 
  - [Document management - Portable document format - Part1: PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
