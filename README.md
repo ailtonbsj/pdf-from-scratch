@@ -11,7 +11,7 @@ This repository has some pdf files created from zero using the VIM text editor. 
 
 - [PDF Validation Toool](https://pdf-online.com/osa/validate.aspx)
 
-### Uncompress zlib data
+## Uncompress zlib data
 
 Using shell script:
 
@@ -30,8 +30,17 @@ print(
 )
 ```
 
+## Uncompress all streams of PDF file
+
+```sh
+qpdf \
+--compress-streams=n \
+--decode-level=all \
+old.pdf new.pdf
+```
 
 ## Documents
 
  - [Document management - Portable document format - Part1: PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
  - [PDF Reference 3ed Adobe Portable Document Format](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/pdf_reference_archives/PDFReference.pdf)
+ - [QPDF Manual by Jay Berkenbilt](http://qpdf.sourceforge.net/files/qpdf-manual.pdf)
