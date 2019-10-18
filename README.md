@@ -4,7 +4,7 @@ This repository has some pdf files created from zero using the VIM text editor. 
 
 ## Videos tutorial
 
-- [Tutorial 1 by Axolotlic](https://youtu.be/ZQpTTdkIZbs)
+- [Tutorial1 by Axolotlic](https://youtu.be/ZQpTTdkIZbs)
 - [Intro to PDF by Rosenthol](https://youtu.be/KmP7pbcAl-8)
 
 ## Tools
