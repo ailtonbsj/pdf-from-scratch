@@ -39,6 +39,12 @@ qpdf \
 old.pdf new.pdf
 ```
 
+## Compress and try to fix PDF
+
+```sh
+gs -o new.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress old.pdf
+```
+
 ## Documents
 
  - [Document management - Portable document format - Part1: PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
